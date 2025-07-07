@@ -1,38 +1,26 @@
 # Gesture Detector
 The Gesture Detector uses the TensorFlowLite library along with the Arduino microcontroller to create a ML model that detects different types of hand gestures and prints it out what the model thinks the gesture is.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Ethan T | Homestead High | Electrical Engineering | Incoming Sophomore
-
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
   
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=i0qnh55KEK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For my second milestone, it was modifications that were added to my base project. This time, I added two more gestures, mew and wave. I also added more training data to make the detection more accurate, which it previously wasn't. Lastly, instead of outputting the gesture in plain text, I used emojis to make it more fun. During these modifications, I did encounter some issues, namely the Arduino microcontroller spitting out random gibberish text and also crashing my computer whenever I would plug it into my computer with the USB-cable. I fixed it by uploading a new sketch into the microcontroller, which erased the previous activity.
 
 # First Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For my first milestone, I finished the overall project, where it can straight detect the gesture and print it out in the console. It works by having someone hold the microcontroller and then performing a gesture, to which the microcontroller sends the data to the computer which stores the model, which then predicts which gesture was executed. I faced some problems, such as trying to copy and pate the training data into a .csv file, which was very tedious since you had to manually copy and paste by sections instead of all at once. Another one was the .csv files not uploading correctly in Google Colab, which was because I forgot to save the files. Overall, although the project works, the predictions are not the most accurate. So for my next milestones and final project in general, I want to train the model with more data, as well as adding more gesture options for functionality purposes. Also, I plan to turn the gestures into emojis instead just bare text printed in the console to make it more appealing.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+My project didn't require any wiring since all I needed was a USB-cable, but here is an image of the microcontroller.
 
 # Code
 Here is the Arduino sketch code I used for my project.
@@ -293,9 +281,8 @@ Here are the parts I needed for my project. As you can see, it didn't require a 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Arduino Nano 33 BLE Sense Board | Used to detect the gestures | $27 | <a href="https://www.amazon.com/Arduino-Nano-Rev2-headers-ABX00072/dp/B0CNTRTL5W/ref=asc_df_B0CNTRTL5W?mcid=3df758d783473a4397b4583f9b901fe5&hvocijid=10140926521408242730-B0CNTRTL5W-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=10140926521408242730&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198079&hvtargid=pla-2281435179018&psc=1"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino Nano 33 BLE Sense Board | Used to detect the gestures | $25.50 | <a href="https://www.amazon.com/Arduino-Nano-Rev2-headers-ABX00072/dp/B0CNTRTL5W/ref=asc_df_B0CNTRTL5W?mcid=3df758d783473a4397b4583f9b901fe5&hvocijid=10140926521408242730-B0CNTRTL5W-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=10140926521408242730&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198079&hvtargid=pla-2281435179018&psc=1"> Link </a> |
+| RAMPOW Charging Cable | Connect the Arduino microcontroller to my computer | $6.99 | <a href="https://www.amazon.com/RAMPOW-Android-Charging-Braided-Samsung/dp/B01GJC4YMC?th=1"> Link </a> |
 
 # Other Resources
 Here are the tutorials I used to built my project.
