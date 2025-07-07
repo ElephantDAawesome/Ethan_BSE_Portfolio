@@ -9,13 +9,13 @@ The Gesture Detector uses the TensorFlowLite library along with the Arduino micr
   
 # Second Milestone
 
-<iframe width="880" height="495" src="https://www.youtube.com/embed/i0qnh55KEK0" title="Ethan T. Final Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i0qnh55KEK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For my second milestone, it was modifications that were added to my base project. This time, I added two more gestures, mew and wave. I also added more training data to make the detection more accurate, which it previously wasn't. Lastly, instead of outputting the gesture in plain text, I used emojis to make it more fun. During these modifications, I did encounter some issues, namely the Arduino microcontroller spitting out random gibberish text and also crashing my computer whenever I would plug it into my computer with the USB-cable. I fixed it by uploading a new sketch into the microcontroller, which erased the previous activity.
 
 # First Milestone
 
-<iframe width="880" height="495" src="https://www.youtube.com/embed/-SF8K8FDyk4" title="Ethan T Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-SF8K8FDyk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For my first milestone, I finished the overall project, where it can straight detect the gesture and print it out in the console. It works by having someone hold the microcontroller and then performing a gesture, to which the microcontroller sends the data to the computer which stores the model, which then predicts which gesture was executed. I faced some problems, such as trying to copy and pate the training data into a .csv file, which was very tedious since you had to manually copy and paste by sections instead of all at once. Another one was the .csv files not uploading correctly in Google Colab, which was because I forgot to save the files. Overall, although the project works, the predictions are not the most accurate. So for my next milestones and final project in general, I want to train the model with more data, as well as adding more gesture options for functionality purposes. Also, I plan to turn the gestures into emojis instead just bare text printed in the console to make it more appealing.
 
